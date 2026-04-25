@@ -1,0 +1,578 @@
+/* Reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Theme Variables */
+:root {
+  --color-primary: #83781B;
+  --color-secondary: #95B46A;
+  --color-accent: #709255;
+  --color-dark: #3E5622;
+  --color-darker: #172815;
+  --color-white: #ffffff;
+}
+
+
+/* Make video section relative so overlay can be positioned */
+.myTripCatalog-video-section {
+  position: relative;
+  height: 550px; /* reduce banner height */
+  overflow: hidden;
+}
+
+/* Style and size the video */
+.myTripCatalog-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crop video to fit height */
+}
+
+/* Overlay text styles */
+.myTripCatalog-video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.myTripCatalog-video-overlay h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.myTripCatalog-video-overlay p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.myTripCatalog-banner-btn {
+  padding: 10px 20px;
+  background-color: #316d09;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.myTripCatalog-banner-btn:hover {
+  background-color: #4d921c;
+}
+
+
+
+/* Banner Button */
+.myTripCatalog-banner-btn {
+  margin-top: 1rem;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.myTripCatalog-banner-btn:hover {
+  background-color: var(--color-secondary);
+  transform: scale(1.05);
+}
+
+/* Responsive video overlay */
+.myTripCatalog-video-overlay {
+  max-width: 90%;
+  text-align: center;
+}
+.myTripCatalog-video-overlay h1 {
+  font-size: 3rem;
+}
+.myTripCatalog-video-overlay p {
+  font-size: 1.3rem;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .myTripCatalog-video-section {
+    height: 50vh;
+  }
+  .myTripCatalog-video-overlay h1 {
+    font-size: 2rem;
+  }
+  .myTripCatalog-video-overlay p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .myTripCatalog-video-section {
+    height: 40vh;
+  }
+  .myTripCatalog-video-overlay h1 {
+    font-size: 1.5rem;
+  }
+  .myTripCatalog-video-overlay p {
+    font-size: 0.9rem;
+  }
+  .myTripCatalog-banner-btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .myTripCatalog-video-section {
+    height: 35vh;
+  }
+  .myTripCatalog-video-overlay {
+    padding: 0.5rem 1rem;
+  }
+  .myTripCatalog-video-overlay h1 {
+    font-size: 1.2rem;
+  }
+  .myTripCatalog-video-overlay p {
+    font-size: 0.8rem;
+  }
+}
+
+
+/* Catalog Container */
+.myTripCatalog-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-darker);
+  color: var(--color-white);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.myTripCatalog-header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Filter Section */
+.myTripCatalog-filters {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+
+.myTripCatalog-select {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 8px;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.myTripCatalog-select:hover {
+  background-color: var(--color-accent);
+}
+
+/* Grid */
+.myTripCatalog-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  padding:  2rem;
+  box-sizing: border-box;
+}
+/* Trip Card */
+.myTripCatalog-card {
+  background-color: var(--color-dark);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.myTripCatalog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.myTripCatalog-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.myTripCatalog-card:hover img {
+  transform: scale(1.05);
+}
+
+.myTripCatalog-card-content {
+  padding: 1rem;
+}
+
+.myTripCatalog-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.myTripCatalog-card-desc {
+  font-size: 0.9rem;
+  color: var(--color-white);
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+/* Price & Button */
+.myTripCatalog-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myTripCatalog-price {
+  font-size: 1rem;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.myTripCatalog-button {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.myTripCatalog-button:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Large desktop screens */
+@media (min-width: 1400px) {
+  .myTripCatalog-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .myTripCatalog-header {
+    font-size: 1.8rem;
+  }
+  .myTripCatalog-card img {
+    height: 160px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .myTripCatalog-header {
+    font-size: 1.5rem;
+  }
+  .myTripCatalog-filters {
+    flex-direction: column;
+    align-items: center;
+  }
+  .myTripCatalog-card img {
+    height: 150px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .myTripCatalog-container {
+  
+  }
+  .myTripCatalog-header {
+    font-size: 1.3rem;
+  }
+  .myTripCatalog-card-title {
+    font-size: 1rem;
+  }
+  .myTripCatalog-card-desc {
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
+/* Iconic Landmarks Section */
+.myTripCatalog-landmarks {
+  padding: 3rem 2rem;
+  background-color: var(--color-dark);
+  text-align: center;
+}
+
+.myTripCatalog-landmarks-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-secondary);
+}
+
+.myTripCatalog-landmarks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.myTripCatalog-landmark-card {
+  background-color: var(--color-darker);
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.myTripCatalog-landmark-card h3 {
+  margin-top: 0.8rem;
+  color: var(--color-white);
+  font-size: 1rem;
+}
+
+.myTripCatalog-landmark-img {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Hover Effect */
+.myTripCatalog-landmark-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .myTripCatalog-landmark-img {
+    height: 100px;
+  }
+}
+
+
+/* Next Adventure Section */
+.tripcatalog-next-section {
+  padding: 4rem 1rem;
+  background-color: #1d3e13;
+}
+
+.tripcatalog-next-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.tripcatalog-next-text {
+  flex: 1 1 500px;
+}
+
+.tripcatalog-next-smalltitle {
+  color: var(--color-secondary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.tripcatalog-next-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.tripcatalog-next-description {
+  color: #e8e7e7;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* Progress Bars */
+.tripcatalog-next-progressbars {
+  margin-bottom: 2rem;
+}
+
+.tripcatalog-progress-item {
+  margin-bottom: 1rem;
+}
+
+.tripcatalog-progress-label {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.tripcatalog-progress-track {
+  background: #ddd;
+  border-radius: 20px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.tripcatalog-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #157014, #97ff47);
+  transition: width 0.6s ease-in-out;
+}
+
+/* Button */
+.tripcatalog-next-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #2b7042;
+  color: white;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.tripcatalog-next-button:hover {
+  background: #41703d;
+  color: white;
+}
+
+/* Image Shape */
+.tripcatalog-next-image-wrapper {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.tripcatalog-next-image {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: cover;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  border-radius: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tripcatalog-next-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tripcatalog-next-text {
+    order: 2;
+  }
+
+  .tripcatalog-next-image-wrapper {
+    order: 1;
+  }
+}
+
+
+/* Stats Section */
+.tripcatalog-stats-section {
+  background-color: #172815;
+  padding: 40px 20px;
+}
+.tripcatalog-stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.tripcatalog-stat-item h3 {
+  font-size: 2rem;
+  color: #95B46A;
+  margin-bottom: 5px;
+}
+.tripcatalog-stat-item p {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Promo Section */
+.tripcatalog-promo-section {
+  padding: 60px 20px;
+  background-color: #3E5622;
+}
+.tripcatalog-promo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.tripcatalog-promo-text {
+  flex: 1;
+  min-width: 300px;
+}
+.tripcatalog-promo-text h2 {
+  font-size: 2rem;
+  color: #95B46A;
+  margin-bottom: 10px;
+}
+.tripcatalog-promo-text h3 {
+  font-size: 1.5rem;
+  color: #83781B;
+  margin-bottom: 15px;
+}
+.tripcatalog-promo-text p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.tripcatalog-promo-text button {
+  background-color: #709255;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.tripcatalog-promo-text button:hover {
+  background-color: #95B46A;
+}
+.tripcatalog-promo-images {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+.tripcatalog-promo-main {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.tripcatalog-promo-overlay {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 50%;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tripcatalog-promo-content {
+    flex-direction: column;
+  }
+  .tripcatalog-promo-overlay {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 40%;
+  }
+}

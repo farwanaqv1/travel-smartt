@@ -1,0 +1,143 @@
+{
+  "featuredDestinations": [
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "description": "Romantic city of lights and culture.",
+      "longdesc":"hsdgsdghdsgfsgf",
+      "image": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Bali, Indonesia",
+      "description": "Tropical paradise with serene beaches.",
+      "longdesc":"hsdgsdghdsgfsgf",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1938&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Dubai, UAE",
+      "description": "Modern luxury meets Arabian tradition.",
+      "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1937&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Tokyo, Japan",
+      "description": "Vibrant blend of tradition and innovation.",
+      "image": "https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80"
+    },
+    {
+      "id": 5,
+      "name": "New York, USA",
+      "description": "The city that never sleeps.",
+      "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Rome, Italy",
+      "description": "Eternal city with ancient wonders.",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1996&q=80"
+    }
+  ],
+  "travelDeals": [
+  {
+    "id": 1,
+    "title": "Maldives – 5 Nights Luxury Stay",
+    "discount": "30% Off",
+    "price": "$2,499"
+  },
+  {
+    "id": 2,
+    "title": "Switzerland Tour",
+    "discount": "Save $500",
+    "price": "$1,799"
+  },
+  {
+    "id": 3,
+    "title": "Thailand Adventure",
+    "discount": "All-Inclusive",
+    "price": "from $999"
+  },
+  {
+    "id": 4,
+    "title": "Bali Romantic Getaway",
+    "discount": "Honeymoon Special",
+    "price": "$1,599"
+  },
+  {
+    "id": 5,
+    "title": "Japan Cherry Blossom Tour",
+    "discount": "Early Bird 25% Off",
+    "price": "$2,299"
+  },
+  {
+    "id": 6,
+    "title": "Paris & Rome Combo",
+    "discount": "Limited Time Offer",
+    "price": "$1,899"
+  },
+  {
+    "id": 7,
+    "title": "Australian Outback Adventure",
+    "discount": "Free Upgrade",
+    "price": "$2,799"
+  },
+  {
+    "id": 8,
+    "title": "Canadian Rockies Expedition",
+    "discount": "Group Discount",
+    "price": "$1,699"
+  }
+],
+  "testimonials": [
+  {
+    "id": 1,
+    "quote": "Best trip of my life! Everything was perfectly arranged.",
+    "author": "Ayesha Khan",
+    "location": "Maldives",
+    "image": "t2.webp"
+  },
+  {
+    "id": 2,
+    "quote": "Affordable and luxurious at the same time.",
+    "author": "James Carter",
+    "location": "Switzerland",
+    "image": "t1.jpg"
+  },
+  {
+    "id": 3,
+    "quote": "The guides were incredibly knowledgeable and made our adventure unforgettable.",
+    "author": "Priya Sharma",
+    "location": "Bali",
+    "image": "t3.jpg"
+  },
+  {
+    "id": 4,
+    "quote": "Perfect honeymoon package! Every detail was taken care of.",
+    "author": "Michael & Sarah Johnson",
+    "location": "Mauritius",
+    "image": "t4.jpg"
+  },
+  {
+    "id": 5,
+    "quote": "Saw cherry blossoms in full bloom - exactly as promised! Flawless itinerary.",
+    "author": "David Kim",
+    "location": "Japan",
+    "image": "t5.jpg"
+  },
+  {
+    "id": 6,
+    "quote": "Our family trip to Europe was stress-free thanks to their planning.",
+    "author": "The Gupta Family",
+    "location": "Paris & Rome",
+    "image": "t6.png"
+  },
+  {
+    "id": 7,
+    "quote": "The Australian outback tour exceeded all expectations. 5 stars!",
+    "author": "Emma Wilson",
+    "location": "Australia",
+    "image": "t7.jpg"
+  }
+]
+}

@@ -1,0 +1,309 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Santorini, Greece",
+      "description": "Famous for its white-washed houses and blue domes overlooking the Aegean Sea.",
+      "image": "../assets/santorini.jpg",
+      "alt": "White buildings with blue domes in Santorini",
+      "continent": "Europe",
+      "priceRange": "$$$",
+      "bestSeason": ["May", "June", "September"],
+      "activities": ["Sightseeing", "Beach", "Romantic"],
+      "attractions": ["Oia Village", "Red Beach", "Santorini Caldera"],
+      "rating": 4.9,
+      "reviews": 1245,
+      "badges": ["Top Rated", "Best Seller"]
+    },
+    {
+      "id": 2,
+      "name": "Kyoto, Japan",
+      "description": "Ancient capital with stunning temples, traditional tea houses, and cherry blossoms.",
+      "image": "../assets/kyoto.jpg",
+      "alt": "Golden temple in Kyoto with autumn foliage",
+      "continent": "Asia",
+      "priceRange": "$$$",
+      "bestSeason": ["March", "April", "October", "November"],
+      "activities": ["Cultural", "Historical", "Nature"],
+      "attractions": ["Kinkaku-ji", "Fushimi Inari Shrine", "Arashiyama Bamboo Forest"],
+      "rating": 4.8,
+      "reviews": 987,
+      "badges": ["Top Rated"]
+    },
+    {
+      "id": 3,
+      "name": "Banff National Park, Canada",
+      "description": "Majestic Rocky Mountains with turquoise lakes and abundant wildlife.",
+      "image": "../assets/banff.jpg",
+      "alt": "Lake Louise with mountains in Banff National Park",
+      "continent": "North America",
+      "priceRange": "$$",
+      "bestSeason": ["June", "July", "August", "December", "January"],
+      "activities": ["Adventure", "Nature", "Winter Sports"],
+      "attractions": ["Lake Louise", "Moraine Lake", "Banff Gondola"],
+      "rating": 4.7,
+      "reviews": 856,
+      "badges": ["New"]
+    },
+    {
+      "id": 4,
+      "name": "Serengeti National Park, Tanzania",
+      "description": "Witness the Great Migration and Africa's iconic wildlife on safari.",
+      "image": "../assets/serengeti.jpg",
+      "alt": "Lions resting in the Serengeti plains",
+      "continent": "Africa",
+      "priceRange": "$$$$",
+      "bestSeason": ["June", "July", "August", "September"],
+      "activities": ["Adventure", "Wildlife", "Nature"],
+      "attractions": ["Great Migration", "Ngorongoro Crater", "Maasai Culture"],
+      "rating": 4.9,
+      "reviews": 723,
+      "badges": ["Best Seller"]
+    },
+    {
+      "id": 5,
+      "name": "Queenstown, New Zealand",
+      "description": "Adventure capital of the world with stunning landscapes and thrilling activities.",
+      "image": "../assets/queenstown.jpg",
+      "alt": "Queenstown with Lake Wakatipu and mountains",
+      "continent": "Oceania",
+      "priceRange": "$$$",
+      "bestSeason": ["December", "January", "February", "June", "July"],
+      "activities": ["Adventure", "Nature", "Winter Sports"],
+      "attractions": ["Milford Sound", "Bungee Jumping", "Ski Fields"],
+      "rating": 4.8,
+      "reviews": 654,
+      "badges": ["Top Rated"]
+    },
+    {
+      "id": 6,
+      "name": "Rio de Janeiro, Brazil",
+      "description": "Vibrant city with iconic beaches, lush mountains, and carnival spirit.",
+      "image": "../assets/rio.jpg",
+      "alt": "Christ the Redeemer statue overlooking Rio",
+      "continent": "South America",
+      "priceRange": "$$",
+      "bestSeason": ["April", "May", "September", "October"],
+      "activities": ["Beach", "Cultural", "Adventure"],
+      "attractions": ["Christ the Redeemer", "Sugarloaf Mountain", "Copacabana Beach"],
+      "rating": 4.6,
+      "reviews": 789,
+      "badges": []
+    },
+    {
+      "id": 7,
+      "name": "Bali, Indonesia",
+      "description": "Island paradise with lush jungles, ancient temples, and stunning beaches.",
+      "image": "../assets/bali.jpg",
+      "alt": "Tegalalang Rice Terrace in Bali",
+      "continent": "Asia",
+      "priceRange": "$$",
+      "bestSeason": ["April", "May", "June", "September", "October"],
+      "activities": ["Beach", "Cultural", "Romantic"],
+      "attractions": ["Uluwatu Temple", "Tegallalang Rice Terrace", "Ubud Monkey Forest"],
+      "rating": 4.7,
+      "reviews": 1123,
+      "badges": ["Best Seller"]
+    },
+    {
+      "id": 8,
+      "name": "Paris, France",
+      "description": "City of Light with iconic landmarks, world-class museums, and romantic ambiance.",
+      "image": "../assets/paris.jpg",
+      "alt": "Eiffel Tower at sunset in Paris",
+      "continent": "Europe",
+      "priceRange": "$$$",
+      "bestSeason": ["April", "May", "September", "October"],
+      "activities": ["Cultural", "Romantic", "Historical"],
+      "attractions": ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral"],
+      "rating": 4.8,
+      "reviews": 1456,
+      "badges": ["Top Rated", "Best Seller"]
+    },
+    {
+      "id": 9,
+      "name": "Grand Canyon, USA",
+      "description": "Breathtaking natural wonder with awe-inspiring vistas and hiking trails.",
+      "image": "../assets/grand-canyon.jpg",
+      "alt": "Grand Canyon at sunrise",
+      "continent": "North America",
+      "priceRange": "$$",
+      "bestSeason": ["March", "April", "May", "September", "October"],
+      "activities": ["Nature", "Adventure", "Hiking"],
+      "attractions": ["South Rim", "Havasu Falls", "Grand Canyon Skywalk"],
+      "rating": 4.8,
+      "reviews": 876,
+      "badges": ["Top Rated"]
+    },
+    {
+      "id": 10,
+      "name": "Cape Town, South Africa",
+      "description": "Stunning coastal city with Table Mountain, penguins, and world-class vineyards.",
+      "image": "../assets/capetown.jpg",
+      "alt": "Table Mountain in Cape Town",
+      "continent": "Africa",
+      "priceRange": "$$",
+      "bestSeason": ["February", "March", "April", "October", "November"],
+      "activities": ["Nature", "Adventure", "Cultural"],
+      "attractions": ["Table Mountain", "Robben Island", "Cape of Good Hope"],
+      "rating": 4.7,
+      "reviews": 765,
+      "badges": []
+    },
+    {
+      "id": 11,
+      "name": "Sydney, Australia",
+      "description": "Iconic harbor city with the Opera House, Bondi Beach, and vibrant culture.",
+      "image": "../assets/sydney.jpg",
+      "alt": "Sydney Opera House and Harbour Bridge",
+      "continent": "Oceania",
+      "priceRange": "$$$",
+      "bestSeason": ["September", "October", "November", "March", "April"],
+      "activities": ["Beach", "Cultural", "Urban"],
+      "attractions": ["Sydney Opera House", "Bondi Beach", "Blue Mountains"],
+      "rating": 4.7,
+      "reviews": 932,
+      "badges": []
+    },
+    {
+      "id": 12,
+      "name": "Machu Picchu, Peru",
+      "description": "Ancient Inca citadel hidden in the Andes mountains, a wonder of the world.",
+      "image": "../assets/machu-picchu.jpg",
+      "alt": "Machu Picchu ruins with mountains",
+      "continent": "South America",
+      "priceRange": "$$",
+      "bestSeason": ["May", "June", "July", "August", "September"],
+      "activities": ["Historical", "Adventure", "Hiking"],
+      "attractions": ["Inca Trail", "Sacred Valley", "Huayna Picchu"],
+      "rating": 4.9,
+      "reviews": 843,
+      "badges": ["Top Rated", "Best Seller"]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "location": "New York, USA",
+      "rating": 5,
+      "comment": "Travel Smart made our Santorini trip unforgettable! The recommendations were spot on and we got the best deals.",
+      "avatar": "../assets/avatar1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "location": "Toronto, Canada",
+      "rating": 5,
+      "comment": "The Kyoto cultural tour was exceptional. We experienced authentic Japan thanks to Travel Smart's local guides.",
+      "avatar": "../assets/avatar3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Emma Rodriguez",
+      "location": "London, UK",
+      "rating": 4,
+      "comment": "Our Serengeti safari was a dream come true. The organization was flawless and the guides were incredibly knowledgeable.",
+      "avatar": "../assets/avatar2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "David Kim",
+      "location": "Seoul, South Korea",
+      "rating": 5,
+      "comment": "Booking through Travel Smart saved us time and money for our Queenstown adventure. Will definitely use them again!",
+      "avatar": "../assets/avatar4.jpg"
+    }
+  ],
+  "spotlight": {
+    "id": 8,
+    "title": "Destination of the Month",
+    "subtitle": "Experience the magic of Paris in springtime"
+  },
+  "travelInspiration": [
+    {
+      "id": 1,
+      "title": "Romantic Getaways",
+      "image": "../assets/romantic.jpg",
+      "count": 24
+    },
+    {
+      "id": 2,
+      "title": "Adventure Travel",
+      "image": "../assets/adventure.jpg",
+      "count": 18
+    },
+    {
+      "id": 3,
+      "title": "Cultural Experiences",
+      "image": "../assets/cultural.jpg",
+      "count": 32
+    },
+    {
+      "id": 4,
+      "title": "Beach Vacations",
+      "image": "../assets/beach.jpg",
+      "count": 27
+    },
+    {
+      "id": 5,
+      "title": "Winter Escapes",
+      "image": "../assets/winter.jpg",
+      "count": 15
+    }
+  ],
+  
+  "allContinents": [
+    {
+      "name": "Africa",
+      "image": "africa.jpg"
+    },
+    {
+      "name": "Asia",
+      "image": "asia.jpg"
+    },
+    {
+      "name": "Europe",
+      "image": "europe.jpg"
+    },
+    {
+      "name": "North America",
+      "image": "north-america.jpg"
+    },
+    {
+      "name": "South America",
+      "image": "south-america.jpg"
+    },
+    {
+      "name": "Oceania",
+      "image": "oceania.jpg"
+    }
+  ],
+  "continents": [
+    {
+      "name": "Africa",
+      "image": "https://images.unsplash.com/photo-1442530792250-81629236fe54"
+    },
+    {
+      "name": "Asia",
+      "image": "https://images.unsplash.com/photo-1464817739973-0128fe77aaa1"
+    },
+    {
+      "name": "Europe",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+    },
+    {
+      "name": "North America",
+      "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda"
+    },
+    {
+      "name": "South America",
+      "image": "https://images.unsplash.com/photo-1442530792250-81629236fe54"
+    },
+    {
+      "name": "Oceania",
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+    }
+  ]
+}
+  

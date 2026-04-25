@@ -1,0 +1,732 @@
+/* Dark Theme Base Styles */
+.home-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+  line-height: 1.6;
+  background-color: #121a0d; /* Very dark green background */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #95B46A; /* Light sage green for headings */
+}
+
+.section-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  color: #709255; /* Muted olive green for secondary text */
+}
+
+/* Featured Destinations - Dark Theme */
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.destination-card {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  background: #1a2312; /* Dark card background */
+  border-radius: 15px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #2a3b17; /* Subtle border */
+}
+
+.destination-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  opacity: 0.8; /* Slightly transparent to blend with dark theme */
+}
+
+.card-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background: rgba(62, 86, 34, 0.9); /* Deep forest green overlay */
+  color: white;
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: translateY(20px);
+}
+
+.destination-card:hover .card-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.destination-card:hover .card-image {
+  transform: scale(1.1);
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.card-content p {
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  background-color: #83781B; /* Dark mustard yellow */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #6B6417; /* Darker mustard */
+}
+
+.view-more-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.view-more-btn {
+  background-color: #709255; /* Muted olive green */
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.view-more-btn:hover {
+  background-color: #5c7a47;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Why Choose Us - Dark Theme */
+.why-choose-us {
+  background-color: #0d1207; /* Darker background */
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #95B46A; /* Light sage green */
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.feature {
+  padding: 30px 20px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(149, 180, 106, 0.2); /* Light sage border */
+}
+
+.feature::before {
+  content: "";
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(149, 180, 106, 0.15); /* Light sage glow */
+  transform: skewX(-25deg);
+  transition: 0.5s;
+}
+
+.feature:hover::before {
+  left: 100%;
+}
+
+.feature:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(149, 180, 106, 0.2); /* Light sage glow */
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #95B46A; /* Light sage green */
+}
+
+.feature h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #b0b0b0;
+}
+
+/* Card color themes - Adjusted for dark theme */
+.card1 { background-color: rgba(131, 120, 27, 0.2); border-color: #83781B; }
+.card2 { background-color: rgba(149, 180, 106, 0.2); border-color: #95B46A; }
+.card3 { background-color: rgba(112, 146, 85, 0.2); border-color: #709255; }
+.card4 { background-color: rgba(62, 86, 34, 0.2); border-color: #3E5622; }
+
+/* Top Deals - Dark Theme */
+.top-deals {
+  background-color: #121a0d; /* Dark background */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.top-deals h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #95B46A; /* Light sage green */
+  position: relative;
+  display: inline-block;
+}
+
+.top-deals h2::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 4px;
+  background: linear-gradient(90deg, #95B46A, #83781B);
+  bottom: -8px;
+  left: 15%;
+  border-radius: 2px;
+}
+
+.section-intro {
+  color: #95B46A; /* Light sage green */
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.deal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 260px;
+  padding: 25px;
+  background: #1a2312; /* Dark card background */
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 1px solid #2a3b17; /* Subtle border */
+}
+
+.deal-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(149, 180, 106, 0.1) 0%, rgba(131, 120, 27, 0.1) 100%);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.deal-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(149, 180, 106, 0.2); /* Light sage glow */
+}
+
+.deal-card:hover::before {
+  opacity: 1;
+}
+
+.deal-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  background: linear-gradient(45deg, 
+    rgba(149, 180, 106, 0.1) 0%, 
+    rgba(131, 120, 27, 0.1) 50%, 
+    rgba(149, 180, 106, 0.1) 100%);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.deal-card:hover::after {
+  opacity: 1;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(149, 180, 106, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(149, 180, 106, 0.5);
+  }
+}
+
+.deal-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #95B46A; /* Light sage green */
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.deal-card:hover h3 {
+  color: #c0d89a; /* Lighter sage */
+  transform: scale(1.05);
+}
+
+.discount {
+  color: #c0b235; /* Brighter mustard */
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.deal-card:hover .discount {
+  transform: scale(1.1);
+  color: #d8c23d; /* Bright mustard */
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #95B46A; /* Light sage green */
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.deal-card:hover .price {
+  transform: scale(1.1);
+  color: #c0d89a; /* Lighter sage */
+}
+
+.book-btn {
+  background-color: #83781B; /* Dark mustard yellow */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.book-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: 0.5s;
+}
+
+.book-btn:hover {
+  background-color: #6B6417; /* Darker mustard */
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(107, 100, 23, 0.4);
+}
+
+.book-btn:hover::before {
+  left: 100%;
+}
+
+/* Testimonials Slider - Updated Styles */
+.testimonials-slider {
+  background-color: #0d1207;
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-slider h2 {
+  color: #95B46A;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.testimonials-slider .subheading {
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.slider-track {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  align-items: center;
+}
+
+.slider-card {
+  position: absolute;
+  width: 100%;
+  background: #1a2312;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.slider-card.active {
+  opacity: 1;
+  transform: translateX(0);
+  z-index: 2;
+}
+
+.slider-card.prev {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slider-card.next {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slider-card .rating {
+  color: #c0b235;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.testimonial-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #709255;
+  transition: all 0.3s ease;
+}
+
+.slider-card.active .testimonial-image {
+  transform: scale(1.1);
+}
+
+.quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+  transition: all 0.3s ease 0.2s;
+}
+
+.slider-card.active .quote {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.author {
+  font-weight: bold;
+  color: #95B46A;
+  margin-bottom: 5px;
+  transition: all 0.3s ease 0.3s;
+}
+
+.slider-card.active .author {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.location {
+  color: #c0b235;
+  font-size: 0.9rem;
+  transition: all 0.3s ease 0.4s;
+}
+
+.slider-card.active .location {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #709255;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-arrow:hover {
+  background: #5c7a47;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #3E5622;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.dot.active {
+  background: #95B46A;
+  transform: scale(1.2);
+}
+
+/* Animation for text elements */
+.slider-card:not(.active) .quote,
+.slider-card:not(.active) .author,
+.slider-card:not(.active) .location {
+  transform: translateY(20px);
+  opacity: 0;
+}
+/* Newsletter - Dark Theme */
+.newsletter {
+  background-color: #172815; /* Very dark green */
+  color: white;
+  text-align: center;
+}
+
+.newsletter h2 {
+  color: #95B46A; /* Light sage green */
+}
+
+.newsletter p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #b0b0b0;
+}
+
+.newsletter-form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+  background-color: #1a2312; /* Dark input */
+  color: white;
+}
+
+.newsletter-form input::placeholder {
+  color: #95B46A; /* Light sage placeholder */
+  opacity: 0.7;
+}
+
+.newsletter-form button {
+  padding: 15px 30px;
+  background-color: #83781B; /* Dark mustard yellow */
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #6B6417; /* Darker mustard */
+}
+
+/* Footer CTA - Dark Theme */
+.footer-cta {
+  background-color: #172815; /* Very dark green */
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.footer-cta h2 {
+  color: #95B46A; /* Light sage green */
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #95B46A; /* Light sage green */
+  color: #172815; /* Very dark green */
+  border: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #c0d89a; /* Lighter sage */
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .destination-grid, .deals-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  .destination-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+  }
+  
+  .newsletter-form input {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-form button {
+    border-radius: 5px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 40px 0;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  .features-grid, .deals-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .slider-container {
+    padding: 0 30px;
+  }
+  
+  .slider-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+}

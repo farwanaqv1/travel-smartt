@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "title": "About Travel Smart",
+    "subtitle": "Discover the world with our expert travel guidance and personalized experiences"
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "description": "Travel Smart is a premier travel consultancy founded in 2010 by a group of passionate globetrotters. With over a decade of experience in the travel industry, we've helped thousands of travelers explore the world with confidence and ease. Our team consists of travel experts, local guides, and logistics specialists who work together to create unforgettable journeys.",
+    "image": "/who-we-are.jpg"
+  },
+  "ourMission": {
+    "title": "Our Mission",
+    "description": "Our mission is to make travel accessible, enjoyable, and meaningful for everyone. We believe that travel has the power to transform lives and broaden perspectives. By providing carefully curated travel experiences, insider knowledge, and 24/7 support, we remove the stress from travel planning so you can focus on making lifelong memories.",
+    "image": "/our-mission.jpg"
+  },
+  "whatWeOffer": {
+    "title": "What We Offer",
+    "services": [
+      {
+        "title": "Custom Itineraries",
+        "description": "Tailor-made travel plans designed around your interests, budget, and travel style."
+      },
+      {
+        "title": "Local Expertise",
+        "description": "Insider access to hidden gems and authentic experiences you won't find in guidebooks."
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Round-the-clock assistance from our global team of travel experts."
+      },
+      {
+        "title": "Sustainable Travel",
+        "description": "Eco-friendly options that support local communities and minimize environmental impact."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Travel Smart",
+    "reasons": [
+      {
+        "title": "Personalized Service",
+        "description": "We take the time to understand your unique travel preferences and needs."
+      },
+      {
+        "title": "Expert Knowledge",
+        "description": "Our team has visited 90% of the destinations we recommend."
+      },
+      {
+        "title": "Value for Money",
+        "description": "We negotiate the best rates and know where to splurge and where to save."
+      },
+      {
+        "title": "Peace of Mind",
+        "description": "Comprehensive travel insurance and emergency support included with every booking."
+      }
+    ]
+  },
+  "ourJourney": {
+    "title": "Our Journey So Far",
+    "milestones": [
+      {
+        "year": "2010",
+        "event": "Founded in a small office",
+        "description": "Started with just 3 employees and a passion for travel"
+      },
+      {
+        "year": "2012",
+        "event": "First international expansion",
+        "description": "Opened our first overseas office in Barcelona"
+      },
+      {
+        "year": "2015",
+        "event": "10,000 travelers served",
+        "description": "Celebrated helping our 10,000th client explore the world"
+      },
+      {
+        "year": "2018",
+        "event": "Sustainability initiative launched",
+        "description": "Committed to carbon-neutral operations and eco-tourism"
+      },
+      {
+        "year": "2022",
+        "event": "Best Travel Agency Award",
+        "description": "Recognized by Travel Weekly for excellence in customer service"
+      }
+    ]
+  },
+  "team": {
+    "title": "Meet the Team",
+    "members": [
+      {
+        "name": "Sarah Johnson",
+        "role": "Founder & CEO",
+        "bio": "With 20+ years in the travel industry, Sarah has visited over 80 countries and brings unparalleled expertise to Travel Smart.",
+        "image": "/sarah.jpg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "Head of Operations",
+        "bio": "Michael ensures every trip runs smoothly with his meticulous attention to detail and vast logistics knowledge.",
+        "image": "/michael.jpg"
+      },
+      {
+        "name": "Elena Rodriguez",
+        "role": "Travel Designer",
+        "bio": "Elena specializes in creating immersive cultural experiences in Latin America and Southern Europe.",
+        "image": "/elena.jpg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Customer Experience",
+        "bio": "David leads our 24/7 support team, ensuring help is always available when you need it.",
+        "image": "/david.jpg"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Start Your Journey?",
+    "subtitle": "Contact us today to begin planning your perfect trip",
+    "buttonText": "Get in Touch"
+  }
+}

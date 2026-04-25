@@ -1,0 +1,51 @@
+{
+  "title": "Bali Beach Bliss: 7-Day Coastal Getaway",
+  "category": "Romantic Bliss",
+  "duration": "7 Days / 6 Nights",
+  "mainImage": "/travelling (5).jpeg",
+  "sideImages": ["/travelling (3).jpeg", "/travelling (4).jpeg"],
+  "descriptionTitle": "Bali Bliss: Ubud and Seminyak Adventure",
+  "description": "Experience the breathtaking beauty of Bali’s coastal and cultural gems in this 7-day getaway. Relax on pristine beaches, explore vibrant markets, and indulge in world-class cuisine. Guided tours, hotel stays, and all major travel expenses included for a worry-free trip.",
+  "price": "$1,250",
+  "itinerary": [
+    "Arrival in Bali",
+    "Explore Ubud",
+    "Mount Batur Sunrise Hike",
+    "Beach Relaxation in Seminyak",
+    "Waterfall Excursion",
+    "Farewell Dinner & Departure"
+  ],
+  "itineraryImage": "/2.jpeg",
+  "experiences": [
+    "Comprehensive Group Travel Insurance",
+    "Explore the Scenic Beauty of Nusa Penida",
+    "Snorkel with Manta Rays",
+    "Indulge in a Gourmet Lobster Lunch",
+    "Walk the Iconic Kelingking Beach Cliff"
+  ],
+  "experiencesImage": "/1.jpeg",
+  "inclusions": [
+    "Round-trip Economy Class Flights",
+    "Domestic Flight Tickets",
+    "Airport Transfers",
+    "Hotel Accommodations",
+    "Guided Tours"
+  ],
+  "inclusionsImage": "/3.jpeg",
+  "relatedAdventures": [
+    {
+      "image": "/4.jpeg",
+      "title": "Tokyo & Kyoto Cultural Trip"
+    },
+    {
+      "image": "/5.jpeg",
+      "title": "Pyramids & Nile River Cruise"
+    },
+    {
+      "image": "/6.jpeg",
+      "title": "Barcelona & Costa del Sol"
+    }
+  ],
+  "footerBannerImage": "/images/forest.jpg",
+  "footerBannerText": "Uncover unique destinations, tailored just for you"
+}

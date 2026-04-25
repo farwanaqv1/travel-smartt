@@ -1,0 +1,215 @@
+.romanticdestination-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #172815;
+  color: #ffffff;
+}
+
+.romanticdestination-header h1 {
+  font-size: 3rem;
+  color: #709255;
+}
+
+.romanticdestination-meta {
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+
+.romanticdestination-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.romanticdestination-main-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  max-height: 820px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.romanticdestination-side-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.romanticdestination-side-images img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.romanticdestination-description h2 {
+  font-size: 2rem;
+  color:  #709255;
+}
+
+.romanticdestination-description p{
+    font-size: 1rem;
+    color:  #ccf399;
+}
+.romanticdestination-price-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.romanticdestination-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #83781B;
+}
+
+.romanticdestination-book-btn {
+  padding: 10px 20px;
+  background:#83781B;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.romanticdestination-itinerary img,
+.romanticdestination-experiences img,
+.romanticdestination-inclusions img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.romanticdestination-adventure-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.romanticdestination-adventure-card {
+  flex: 1 1 calc(33.333% - 10px);
+  min-width: 250px;
+}
+
+.romanticdestination-adventure-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.romanticdestination-footer-banner {
+  margin-top: 50px;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.romanticdestination-start-btn {
+  padding: 12px 25px;
+  background: #83781B;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.romanticdestination-itinerary h3{
+    color: #e0fcc8;
+}
+
+.romanticdestination-itinerary li{
+    color: #e0fcc8;
+}
+
+.romanticdestination-experiences h3{
+     color: #e0fcc8;
+}
+
+.romanticdestination-experiences li{
+     color: #e0fcc8;
+}
+
+.romanticdestination-inclusions h3{
+     color: #e0fcc8;
+}
+
+.romanticdestination-inclusions li{
+     color: #e0fcc8;
+}
+
+.romanticdestination-more-adventures h3{
+     color:  #709255;
+     font-size: 2rem;
+}
+
+.romanticdestination-side-images img{
+    height: 408px;
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 992px) {
+  .romanticdestination-header h1 {
+    font-size: 2rem;
+  }
+  .romanticdestination-images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .romanticdestination-main-image {
+    max-width: 100%;
+    max-height: 500px;
+  }
+  .romanticdestination-side-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .romanticdestination-side-images img {
+    max-width: 48%;
+   
+  }
+}
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  .romanticdestination-header h1 {
+    font-size: 1.5rem;
+  }
+  .romanticdestination-price {
+    font-size: 1.2rem;
+  }
+  .romanticdestination-main-image {
+    max-height: 350px;
+  }
+  .romanticdestination-side-images img {
+    max-width: 100%;
+    height: 408px;
+  }
+
+
+  
+  .romanticdestination-adventure-cards {
+    flex-direction: column;
+  }
+}
