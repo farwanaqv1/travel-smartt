@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import data from "./data.json";
+import data from "./Data.json";
 import './Detail.css'
 export default function Detail() {
   const location = useLocation();
