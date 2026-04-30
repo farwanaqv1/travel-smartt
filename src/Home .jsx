@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import HeroSlider from './HeroSlider';
 import './Home.css';
 import Navbar from './Navbar';
-import data from './data.json';
+import data from './Data.json';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
